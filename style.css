@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    position: relative;
+    flex-direction:column;
+    flex-wrap: wrap;
+    left: 220px;
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color:teal;
+    gap: 20px;
+    margin: 10px;
+    animation: box1-animation 4s infinite alternate;
+}
+@keyframes  box1-animation {
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    animation: box2-animation 4s infinite alternate;
+}
+@keyframes  box2-animation {
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    animation: box3-animation 4s infinite alternate;
+}
+@keyframes  box3-animation {
+    0%{
+        transform: skewY(-30deg);
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color:darkgrey;
+    gap: 20px;
+    margin: 10px;
+    animation: box4-animation 4s infinite alternate;
+}
+@keyframes  box4-animation {
+    0%{
+        transform: skewX(-30 deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color:darkgrey;
+    margin: 10px;
+    animation: box5-animation 4s infinite alternate;
+}
+@keyframes  box5-animation {
+    0%{
+        transform: skewX(-30 deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: darkgrey;
+    margin: 10px;
+    animation: box6-animation 4s infinite alternate;
+}
+@keyframes  box6-animation {
+    0%{
+        transform: skewX(-30 deg);
+    }
+    100%{
+        transform: skewX(30deg);
+    }
+}
+
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    animation: box7-animation 4s infinite alternate;
+}
+@keyframes box7-animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+
+.box8{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    animation: box7-animation 4s infinite alternate;
+
+}
+@keyframes box8-animation {
+    0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+.box9{
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    margin: 10px;
+    animation: box9-animation 4s infinite alternate;
+}
+@keyframes box9-animation {
+    0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+}
+
+ .box10{
+    width: 100px;
+    height: 100px;
+    background-color:teal;
+    gap: 20px;
+    margin: 10px;
+    animation: box10-animation 4s infinite alternate;
+}
+@keyframes box10-animation {
+    0%{
+        transform: scaleY(0.65);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
+
+.box11{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 10px;
+    animation: box11-animation 4s infinite alternate;
+}
+@keyframes box11-animation {
+    0%{
+        transform: scaleX(0.3);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+.box12{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    margin: 10px;
+    animation: box12-animation 4s infinite alternate;
+}
+@keyframes box12-animation {
+    0%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(359deg);
+    }
+} 
+li{
+    list-style: none;
+    position: absolute;
+    left: 83px;
+    padding: 104px;
+}

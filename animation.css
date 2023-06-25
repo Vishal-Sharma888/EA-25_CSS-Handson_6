@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+
+.container1{
+    display:flex;
+    justify-content: center;
+}
+ol{ 
+    display:flex;
+    justify-content: center; 
+    position: relative;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+.box21{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    transition: width 2s;
+}
+.box21:hover{
+    width: 300px;
+}
+
+.box22 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    transition: width 2s, height 4s;
+  }
+  
+  .box22:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+
+
+  .box23{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    transition: width 2s;
+}
+.box23:hover{
+    width: 300px;
+}
+
+.box24{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+     transition: width 2s;
+}
+.box24:hover{
+    width: 300px;
+}
+
+.box25{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    transition: width 2s;
+}
+.box25:hover{
+    width: 300px;
+}
+
+.box26{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(101, 225, 101);
+    transition: width 2s;
+}
+.box26:hover{
+    width: 300px;
+}
+
+.box27{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(101, 225, 101);
+    transition: width 2s;
+}
+.box27:hover{
+    width: 300px;
+}
+
+
